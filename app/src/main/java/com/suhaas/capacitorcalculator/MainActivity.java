@@ -90,9 +90,9 @@ public class MainActivity extends AppCompatActivity {
                 eNano.setHint(String.valueOf(d * 0.1));
                 eMicro.setHint("0.00" + String.valueOf(d));
             } else if (b == 3 & c == 3) {
-                ePico.setText(String.valueOf(d * 1000));
-                eNano.setText(String.valueOf(d));
-                eMicro.setText("0.0" + String.valueOf(d));
+                ePico.setHint(String.valueOf(d * 1000));
+                eNano.setHint(String.valueOf(d));
+                eMicro.setHint("0.0" + String.valueOf(d));
             } else if (b == 3 & c == 4) {
                 ePico.setHint(String.valueOf(d * 10000));
                 eNano.setHint(String.valueOf(d * 10));
